@@ -18,7 +18,7 @@ Copy the Git URL and then in terminal,
 
 The full clone command should look like:
 
-		git clone https://github.com/YOURGITHUBUSERNAME/fork-me.git  
+	git clone https://github.com/YOURGITHUBUSERNAME/fork-me.git  
 
 ### 3. Updating your repository
 
@@ -26,23 +26,23 @@ Let's add something to our repository! Go ahead and make whatever changes you wa
 
 Here's an example. In terminal,
 
-		cd fork-me
-		echo hello world >> hello.txt
+	cd fork-me
+	echo hello world >> hello.txt
 
 ### 4. Adding changes
 
 Let's make sure to stage (add) these changes so Github knows to track our new files and changes.
 
-		git add .
+	git add .
 
 ### 5. Commiting changes
 
 Commit (snapshot) these changes so you can push them up to Github.
 
-		git commit -m "I love the rails decal! *_*"
+	git commit -m "I love the rails decal! *_*"
 
 ### 6. Pushing to Github
 
 Finally, push these changes up to Github!
 
-		git push origin master					
+	git push origin master					
