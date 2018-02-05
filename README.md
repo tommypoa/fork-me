@@ -26,6 +26,7 @@ Let's add something to our repository! Go ahead and make whatever changes you wa
 
 Here's an example. In terminal,
 
+		cd fork-me
 		echo hello world >> hello.txt
 
 ### 4. Adding changes
